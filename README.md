@@ -2,6 +2,9 @@
 
 ## DEMO
 
+https://github.com/user-attachments/assets/b047b36f-8b63-401e-992a-f8de38399556
+
+
 
 ## 環境構築
 ```bash
@@ -12,7 +15,9 @@ $ npm install
 ```bash
 $ npm run dev
 ```
-(http://localhost:5173/)[http://localhost:5173/]でアクセスできます。
+http://localhost:5173/
+
+でアクセスできます。
 
 ## カスタマイズ
 
