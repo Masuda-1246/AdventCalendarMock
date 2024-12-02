@@ -12,27 +12,25 @@ $ npm install
 ```bash
 $ npm run dev
 ```
-
-http://localhost:5173/
-でアクセスできます。
+(http://localhost:5173/)[http://localhost:5173/]でアクセスできます。
 
 ## カスタマイズ
 
 ### title, description
-index.htmlのタイトルと説明を変更します。
-```html: index.html
+`index.html`のタイトルと説明を変更します。
+```html
 <title>AdventCalendarMock</title>
 <meta name="description" content="AdventCalendarMock" />
 ```
 
 ### データソース
-src/data/calendar.jsonにデータを記述します。
-```json: src/data/calendar.json
+`src/data/calendar.json`にデータを記述します。
+```json
 {
   "title": "", // タイトル
   "subtitle": "", // サブタイトル
   "description": "", // 説明
-  "entries": [
+  "entries": [ // カレンダーの要素
     {
       "day": 1, //日付
       "author": "",　// 著者の名前
@@ -45,8 +43,8 @@ src/data/calendar.jsonにデータを記述します。
 ```
 
 ### カレンダー調整
-src/config/calendar.tsのカレンダーの設定を変更します。
-```typescript: src/config/calendar.ts
+`src/config/calendar.ts`のカレンダーの設定を変更します。
+```typescript
 export const CALENDAR_CONFIG = {
   // 0: Sunday, 1: Monday, ..., 6: Saturday
   startDay: 0, //どの曜日から始まるか
