@@ -1,0 +1,42 @@
+{
+  "title": "Advent Calendar 2024",
+  "subtitle": "参加者 25/25人",
+  "description": "アドベントカレンダーです。",
+  "entries": [
+    {
+      "day": 1,
+      "author": "karasage0703",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=64&h=64&fit=crop",
+      "title": "休日なのでここは入れない",
+      "link": "https://example.com/post-1"
+    },
+    {
+      "day": 2,
+      "author": "Daichi Sato",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=64&h=64&fit=crop",
+      "title": "アドベントカレンダー2024を実施します",
+      "link": "https://example.com/post-2"
+    },
+    {
+      "day": 3,
+      "author": "Daichi Sato",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=64&h=64&fit=crop",
+      "title": "アドベントカレンダー2024を実施します",
+      "link": "https://example.com/post-2"
+    },
+    {
+      "day": 4,
+      "author": "Daichi Sato",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=64&h=64&fit=crop",
+      "title": "アドベントカレンダー2024を実施します",
+      "link": "https://example.com/post-2"
+    },
+    {
+      "day": 5,
+      "author": "Daichi Sato",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=64&h=64&fit=crop",
+      "title": "アドベントカレンダー2024を実施します",
+      "link": "https://example.com/post-2"
+    }
+  ]
+}

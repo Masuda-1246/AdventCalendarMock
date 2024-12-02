@@ -1,0 +1,80 @@
+@keyframes twinkle {
+  0%, 100% { 
+    opacity: 0.1;
+    transform: scale(0.3); 
+  }
+  50% { 
+    opacity: 0.8;
+    transform: scale(1); 
+  }
+}
+
+@keyframes nebula {
+  0%, 100% { 
+    transform: scale(1.1) rotate(0deg); 
+    opacity: 0.3; 
+  }
+  50% { 
+    transform: scale(1) rotate(180deg); 
+    opacity: 0.5; 
+  }
+}
+
+@keyframes space-dust {
+  from {
+    transform: translateY(0) translateX(0);
+    opacity: 0;
+  }
+  5% {
+    opacity: 0.3;
+  }
+  to {
+    transform: translateY(-100vh) translateX(-100vw);
+    opacity: 0;
+  }
+}
+
+@keyframes shooting-star {
+  0% {
+    transform: translateX(0) translateY(0) rotate(45deg);
+    opacity: 0;
+  }
+  5% {
+    opacity: 0.8;
+  }
+  15% {
+    transform: translateX(-200px) translateY(200px) rotate(45deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-200px) translateY(200px) rotate(45deg);
+    opacity: 0;
+  }
+}
+
+.shooting-star {
+  position: absolute;
+  width: 150px;
+  height: 2px;
+  background: linear-gradient(90deg, rgba(255,255,255,0.9), transparent);
+  animation: shooting-star 4s linear infinite;
+  opacity: 0;
+  will-change: transform, opacity;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.8;
+  }
+  90% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(var(--translate-x, 100px), var(--translate-y, -100px)) rotate(360deg);
+    opacity: 0;
+  }
+}
